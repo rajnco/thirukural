@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "thirukural"
+version = "0.1.0"
+description = ""
+authors = ["Rajkumar N <rajkumar.natarajan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.115.5"}
+sqlalchemy = "^2.0.36"
+pydantic = "^2.9.2"
+sqlmodel = "^0.0.22"
+alembic = "^1.14.0"
+passlib = "^1.7.4"
+argon2-cffi = "^23.1.0"
+python-jose = "^3.3.0"
+pydantic-settings = "^2.6.1"
+azure-functions = "^1.21.3"
+uvicorn = "^0.32.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

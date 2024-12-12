@@ -1,0 +1,13 @@
+# JWT
+SECRET_KEY = "a_very_secret_key"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30 
+
+# DB
+DB_FILENAME = "database.db"
+
+# Port 
+Port = 8080
+
+# API_TOKEN
+API_TOKEN="SECRET_API_TOKEN"
